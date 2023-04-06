@@ -1,0 +1,25 @@
+:root {
+    --thin: 500;
+    --regular: 400;
+    --bold: 500;
+    --size1: 1rem;
+    --size2: 1.5rem;
+    --size3: 2rem;
+}
+
+
+html > div {
+    display: none;
+  }
+  
+  * {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .app{
+    background-color: rgb(240, 240, 240);
+    height: 100vh;
+  }

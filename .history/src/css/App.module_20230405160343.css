@@ -1,0 +1,25 @@
+:root {
+    --regular: 500;
+    --bold: 900;
+    --size1: 1rem;
+    --size
+
+}
+
+background-color: var(--regular);
+
+html > div {
+    display: none;
+  }
+  
+  * {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .app{
+    background-color: rgb(240, 240, 240);
+    height: 100vh;
+  }

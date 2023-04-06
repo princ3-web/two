@@ -1,0 +1,25 @@
+:root {
+    --thin: 200;
+    --regular: 400;
+    --bold: 600;
+    --size1: 1rem;
+    --size2: 1.5rem;
+    --size3: 2rem;
+}
+
+
+html > div {
+    display: none;
+  }
+  
+  * {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    font
+  }
+
+  .app{
+    background-color: rgb(240, 240, 240);
+    height: 100vh;
+  }
