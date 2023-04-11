@@ -1,0 +1,9 @@
+
+.cardContainer{
+  display: flex;
+  flex-direction: ;
+}
+
+.card{
+  background-color: red;
+}

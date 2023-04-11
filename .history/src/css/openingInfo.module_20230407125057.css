@@ -1,0 +1,16 @@
+.openingInfo{
+  position: absolute;
+  top: 80vh;
+  background-color: var(--dark-green);
+  filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.15));
+  width: 60vw;
+  height: 40vh;
+  left: 0;
+  margin: auto;
+  right: 0;
+  left: 0;
+}
+
+.text{
+  color
+}

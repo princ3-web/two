@@ -1,0 +1,18 @@
+.openingInfo{
+  position: absolute;
+  top: 90vh;
+  background-color: var(--light);
+  width: fit-content;
+  padding: 2rem;
+  left: 0;
+  margin: auto;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+
+.text{
+  color: var(--dark-green);
+  font-size: var(--size3);
+  font-weight: var(--regular);
+}

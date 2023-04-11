@@ -1,0 +1,23 @@
+
+.cardContainer{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80vw;
+  left: 0;
+  right: 0;
+  top: 5rem;
+  margin: auto;
+}
+
+.card{
+  border: 2px solid black;
+  width: 30%;
+}
+
+.cardImage{
+  wid
+  border: 2px solid black;
+  object-fit: contain;
+}

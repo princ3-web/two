@@ -1,0 +1,12 @@
+
+.cardContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width
+}
+
+.card{
+  background-color: red;
+  width: 30%;
+}

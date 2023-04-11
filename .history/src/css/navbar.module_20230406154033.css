@@ -1,0 +1,84 @@
+.navbar {
+  position: absolute;
+  z-index: 2;
+  width: 88vw;
+  padding-inline: 6vw;
+  padding-top: 1vw;
+  height: 12vh;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  filter: drop-shadow(0px 0px 20px black);
+  overflow: visible;
+}
+
+.navbarButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40vw;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.navbarTopButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 20vw;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.navbarButton {
+  padding: 0.5rem;
+  font-weight: var(--bold);
+  cursor: pointer;
+}
+
+.navbarButtonDropdown {
+  visibility: hidden;
+  z-index: 3;
+  position: absolute;
+  margin-left: -25px;
+  padding-inline: 1.5rem;
+  padding-block: .5rem;
+  background-color: white;
+  cursor: pointer;
+  line-height: 2rem;
+  filter: opacity(0);
+  transition: 0.15s;
+}
+
+.navbarButton:hover ~ .navbarButtonDropdown {
+  visibility: visible;
+  filter: opacity(1);
+}
+
+.navbarButtonDropdown:hover {
+  visibility: visible;
+  filter: opacity(1);
+}
+
+.navbarButtonDropdownItem {
+  background-color: white;
+}
+
+.navbarButtonDropdownItem:hover {
+  color: gray;
+}
+
+.navbarTopButton {
+  height: fit-content;
+  padding: 0.5rem;
+  font-weight: var(--regular);
+  cursor: pointer;
+}
+
+.logo {
+  height: 8;
+  object-fit: contain;
+  align-self: center;
+  background-color: red;
+}
