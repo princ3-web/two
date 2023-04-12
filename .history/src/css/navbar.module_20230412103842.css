@@ -2,8 +2,8 @@
   position: absolute;
   z-index: 2;
   width: 86vw;
-  padding-inline: 7rem;
-  padding-block: .5rem;
+  padding-inline: 7vw;
+  padding-b: 7vw;
   height: 12vh;
   background-color: var(--dark-green);
   color: var(--light);

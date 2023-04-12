@@ -50,16 +50,13 @@
   cursor: pointer;
 }
 
-.link:hover{
-  color: var(--mid-light-gray);
-}
+.link:ho
 
 .logo{
   position: relative;
   width: 6rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  cursor: pointer;
 }
 
 .signature{

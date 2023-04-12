@@ -113,7 +113,8 @@ function App() {
       </div>
       <video loop autoPlay muted className={background.video} src={video} />
       <div className={openingInfo.openingInfo}>
-        {openingInfos.map(item =><div className={openingInfo.text}>{item}</div>)}
+        {openingInfos.map(item =><div className={openingInfo.text}>OPENING HOURS:</div>)}
+
       </div>
       <div className={app.section}>
         <div className={card.cardContainer}>
@@ -140,7 +141,7 @@ function App() {
             <div className={bottombar.link}>{item}</div>
           ))}
         </div>
-        <img className={bottombar.logo} src={logobw} alt="" onClick={() => window.scrollTo(0, 0)}/>
+        <img className={bottombar.logo} src={logobw} alt="" />
         <div className={bottombar.signature}>web design by princ3</div>
       </div>
     </div>

@@ -48,6 +48,10 @@ function App() {
 
   const openingInfos = ["OPENING HOURS:", "Open daily from 9.30am – 6.00 AM", "Last admission is 5.00 PM"]
 
+  <div className={openingInfo.text}>OPENING HOURS:</div>
+  <div className={openingInfo.text}>Open daily from 9.30am – 6.00 AM</div>
+  <div className={openingInfo.text}>Last admission is 5.00 PM</div>
+
   const cards = [
     {
       title: "Events",
@@ -113,7 +117,9 @@ function App() {
       </div>
       <video loop autoPlay muted className={background.video} src={video} />
       <div className={openingInfo.openingInfo}>
-        {openingInfos.map(item =><div className={openingInfo.text}>{item}</div>)}
+        <div className={openingInfo.text}>OPENING HOURS:</div>
+        <div className={openingInfo.text}>Open daily from 9.30am – 6.00 AM</div>
+        <div className={openingInfo.text}>Last admission is 5.00 PM</div>
       </div>
       <div className={app.section}>
         <div className={card.cardContainer}>
@@ -140,7 +146,7 @@ function App() {
             <div className={bottombar.link}>{item}</div>
           ))}
         </div>
-        <img className={bottombar.logo} src={logobw} alt="" onClick={() => window.scrollTo(0, 0)}/>
+        <img className={bottombar.logo} src={logobw} alt="" />
         <div className={bottombar.signature}>web design by princ3</div>
       </div>
     </div>

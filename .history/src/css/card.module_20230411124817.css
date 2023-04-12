@@ -28,7 +28,7 @@
 .cardImage{
   width: 90%;
   object-fit: contain;
-  filter: drop-shadow(10px 10px 0px var(--mid-dark-green));
+  filter: drop-shadow(0px 5px 0px var(--mid-dark-green));
   transform: rotateZ(0deg);
 
 }

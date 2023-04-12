@@ -140,7 +140,8 @@ function App() {
             <div className={bottombar.link}>{item}</div>
           ))}
         </div>
-        <img className={bottombar.logo} src={logobw} alt="" onClick={() => window.scrollTo(0, 0)}/>
+        <img className={bottombar.logo} src={logobw} alt="" onClick={() => window.scrollTo(0, 0)
+}/>
         <div className={bottombar.signature}>web design by princ3</div>
       </div>
     </div>
