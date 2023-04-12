@@ -4,7 +4,7 @@ import logobw from "../assets/images/logobw.png";
 import instagram from "../assets/images/instagram.png";
 import facebook from "../assets/images/facebook.png";
 import tiktok from "../assets/images/tiktok.png";
-import youtube from "./assets/images/youtube.png";
+import youtube from "../assets/images/youtube.png";
 
 const Bottombar = () => {
   const socials = [instagram, facebook, tiktok, youtube];
