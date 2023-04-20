@@ -21,8 +21,11 @@
 }
 
 @media screen and (max-width: 480px) {
+
   .video {
-    width: 100%;
-    margin: unset;
+
+    width: 95%;
+
   }
+
 }

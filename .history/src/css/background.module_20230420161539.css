@@ -1,0 +1,27 @@
+.video {
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  /* border-top: 2rem solid var(--gray-200);
+  border-left: 2rem solid var(--gray-200);
+  border-right: 2rem solid var(--gray-200); */
+  z-index: 1;
+  width: 95%;
+  height: 100vh;
+  object-fit: cover;
+  margin: auto;
+  margin-top: 2rem;
+  padding: 0;
+  background: url("../assets/images/paw.png");
+  background-size: 300px;
+}
+
+.gradient {
+  position: absolute;
+  top: 9rem;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(var(--transp) 50%, var(--gray-200) 100%);
+  z-index: 1;
+
+}

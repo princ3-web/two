@@ -111,13 +111,13 @@ const Navbar = () => {
                 {item.items.length > 0 && (
                   <div className={navbar.navbarButtonDropdown}>
                     {item.items.map((i, n) => (
-                      <Link
+                      <a
                         className={navbar.navbarButtonDropdownItem}
                         key={n}
-                        to={item.link}
+                        href={item.link}
                       >
                         {i}
-                      </Link>
+                      </a>
                     ))}
                   </div>
                 )}

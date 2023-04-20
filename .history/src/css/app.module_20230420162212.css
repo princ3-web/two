@@ -47,7 +47,7 @@ html > div {
 
   .app{
     background: url("../assets/images/paw.png");
-    background-size: 300px;
+    background-size: 200px;
     background-color: var(--gray-200);
     height: fit-content;
   }

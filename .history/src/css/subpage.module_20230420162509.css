@@ -68,7 +68,7 @@
 @media screen and (max-width: 480px) {
   .headerImageWrapper {
     width: 100%;
-    margin-top: 3rem;
+    margin-top: 0rem;
   }
   .headerImage {
     position: relative;
@@ -79,16 +79,14 @@
     right: 0;
     height: 40vh;
     object-fit: cover;
-    border-top-left-radius: unset;
+    border-top-left-radius: 20rem;
     border-top-right-radius: unset;
   }
 
   .textContainer {
     width: 100%;
-    margin-bottom: 3rem;
+    margin-bottom: 6rem;
     padding-inline: 1rem;
-    border-bottom-left-radius: unset;
-    border-bottom-right-radius: unset;
   }
 
   .title {

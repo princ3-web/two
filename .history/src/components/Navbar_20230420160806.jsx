@@ -111,13 +111,13 @@ const Navbar = () => {
                 {item.items.length > 0 && (
                   <div className={navbar.navbarButtonDropdown}>
                     {item.items.map((i, n) => (
-                      <Link
+                      <a
                         className={navbar.navbarButtonDropdownItem}
                         key={n}
-                        to={item.link}
+                        href={item.link}
                       >
                         {i}
-                      </Link>
+                      </a>
                     ))}
                   </div>
                 )}
@@ -139,9 +139,9 @@ const Navbar = () => {
           )}
         >
           {navbarButtons.map((item) => (
-            <Link to={item.link} className={navbar.mobileMenuItem}>
+            <Link top={item.link} className={navbar.mobileMenuItem}>
               <div onClick={() => toggleMobileMenu(false)}>{item.name}</div>
-            </Link>
+            </a>
           ))}
         </div>
       </div>

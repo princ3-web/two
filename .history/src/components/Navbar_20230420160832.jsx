@@ -114,10 +114,10 @@ const Navbar = () => {
                       <Link
                         className={navbar.navbarButtonDropdownItem}
                         key={n}
-                        to={item.link}
+                        href={item.link}
                       >
                         {i}
-                      </Link>
+                      </a>
                     ))}
                   </div>
                 )}

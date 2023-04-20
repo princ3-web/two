@@ -46,13 +46,15 @@ html > div {
   }
 
   .app{
-    background: url("../assets/images/paw.png");
-    background-size: 300px;
     background-color: var(--gray-200);
     height: fit-content;
+    background: url("../assets/images/paw.png");
+    background-size: 100px;
+
   }
 
   .section{
     height: max-content;
     min-height: 100vh;
+
   }

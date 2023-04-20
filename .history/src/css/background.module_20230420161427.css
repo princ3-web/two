@@ -1,0 +1,25 @@
+.video {
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  /* border-top: 2rem solid var(--gray-200);
+  border-left: 2rem solid var(--gray-200);
+  border-right: 2rem solid var(--gray-200); */
+  z-index: 1;
+  width: 95%;
+  height: 100vh;
+  object-fit: cover;
+  margin: auto;
+  margin-top: 
+  padding: 0;
+}
+
+.gradient {
+  position: absolute;
+  top: 7rem;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(var(--transp) 50%, var(--gray-200) 100%);
+  z-index: 1;
+
+}

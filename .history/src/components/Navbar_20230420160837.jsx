@@ -117,7 +117,7 @@ const Navbar = () => {
                         to={item.link}
                       >
                         {i}
-                      </Link>
+                      </Li>
                     ))}
                   </div>
                 )}
