@@ -1,0 +1,26 @@
+.paralax {
+    position: relative;
+    z-index: 5;
+    height: 100vh;
+    overflow: hidden;
+    border-bottom: 0.25rem solid var(--green-500);
+    border-top: 0.25rem solid var(--green-500);
+  }
+  
+  .paralaxBackground {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    filter: blur(4px);
+  }
+  
+  .paralaxObject {
+    position: absolute;
+    bottom: -3rem;
+    transi
+  }
+
+  .paralaxObject:hover{
+    filter: brightness(1.1);
+    cursor: pointer;
+  }
