@@ -1,6 +1,6 @@
 {
-  "homepage": "https://github.com/princep0lo/two",
-  "name": "two",
+  "homepage": "https://princep0lo.github.io/one",
+  "name": "one",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,7 +24,10 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "no-unused-vars": "off"
+    }
   },
   "browserslist": {
     "production": [
@@ -40,11 +43,5 @@
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
-  },
-  "eslintConfig": {
-    "extends": "react-app",
-    "rules": {
-      "no-unused-vars": "off"
-    }
- },
+  }
 }
