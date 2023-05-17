@@ -1,0 +1,42 @@
+.openingInfo {
+  position: absolute;
+  /* background-color: var(--green-500); */
+  /* outline: 0.25rem outset var(--green-600);  */
+  border-radius: 2rem;
+  width: fit-content;
+  padding: 2rem;
+  margin: auto;
+  text-align: center;
+  z-index: 6;
+  transition: 0.2s;
+}
+
+.text {
+  color: var(--green-100);
+  font-size: var(--font-30);
+  font-weight: var(--bold);
+}
+
+@media screen and (max-width: 480px) {
+  .openingInfo {
+    position: absolute;
+    top: 100vh;
+    background-color: var(--green-600);
+    filter: drop-shadow(8px 8px 0px var(--gray-transp-200));
+    width: 90%;
+    padding: 2rem;
+    box-sizing: border-box;
+    left: 0;
+    margin: auto;
+    right: 0;
+    left: 0;
+    text-align: center;
+    z-index: 2;
+    transform: rotateZ(-2deg);
+  }
+
+  .text {
+    color: var(--light);
+    font-weight: var(--regular);
+  }
+}
