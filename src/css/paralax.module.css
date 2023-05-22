@@ -3,8 +3,6 @@
     z-index: 5;
     min-height: 80vh;
     overflow: hidden;
-    border-bottom: 0.25rem solid var(--green-500);
-    border-top: 0.25rem solid var(--green-500);
   }
   
   .paralaxBackground {

@@ -4,7 +4,9 @@
 .openingInfo {
   position: absolute;
   background-color: var(--gray-100);
-  border: 0.35rem outset var(--green-600);
+   background-size: cover;
+  border: 0.25rem inset var(--green-300);
+  border-radius: 1rem;
   width: fit-content;
   padding: 1.5rem;
   margin: auto;

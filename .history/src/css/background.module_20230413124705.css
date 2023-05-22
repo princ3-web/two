@@ -1,9 +1,0 @@
-.video{
-    position: relative;
-    z-index: 1;
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    margin: 0;
-    padding: 0;
-}

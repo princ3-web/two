@@ -11,6 +11,7 @@
   right: 0;
   padding-top: 5rem;
   margin: auto;
+  border: 1px solid black;
 }
 
 .card {
@@ -29,6 +30,8 @@
   filter: drop-shadow(10px 10px 10px var(--gray-100));
   transition: 0.2s;
   outline: 0.5rem solid var(--gray-100);
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
 }
 
 .card:hover .cardImage {
@@ -46,6 +49,8 @@
   color: var(--light);
   text-align: center;
   transition: 0.2s;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
 }
 
 .card:hover .cardText {
