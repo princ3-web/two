@@ -1,0 +1,9 @@
+.logo{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 16rem;
+    z-index: 5;
+    background-color: red;
+}
