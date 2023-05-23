@@ -28,7 +28,7 @@ const Main = () => {
 
   return (
     <>
-      <div style={{ display: "block", position: "relative" }}>
+      <div style={{ display: "block", position: "relative"}}>
         <Paralax
           height={50}
           multiplier={1}
@@ -65,6 +65,7 @@ const Main = () => {
           right={55}
           objectWidth={20}
         />
+
         <Infocard info={supportInfos} left={"unset"} right={"7rem"} top={"12rem"} />
       </div>
     </>

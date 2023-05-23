@@ -19,7 +19,7 @@
   justify-content: space-between;
   align-items: center;
   width: 50vw;
-  flex-grow: 3;
+  flex-grow: 5;
   margin-left: auto;
   margin-right: auto;
 }
@@ -108,9 +108,10 @@
   display: none;
 }
 
-.mobileMenu {
+.mobileMenu{
   display: none;
 }
+
 
 @media screen and (max-width: 480px) {
   .navbar {
@@ -136,7 +137,7 @@
     z-index: 1;
   }
 
-  .mobileMenu {
+  .mobileMenu{
     position: absolute;
     display: block;
     box-sizing: border-box;
@@ -151,11 +152,11 @@
     transition: 0.2s;
   }
 
-  .mobileMenuShow {
+  .mobileMenuShow{
     left: 0;
   }
 
-  .mobileMenuItem {
+  .mobileMenuItem{
     color: var(--light);
     line-height: 4rem;
     text-decoration: none;

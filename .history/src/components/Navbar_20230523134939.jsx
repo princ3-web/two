@@ -76,6 +76,7 @@ const Navbar = () => {
   return (
     <>
       <div className={navbar.navbar}>
+        <div className={navbar.content}>
           <div className={navbar.navbarTopButtons}>
             {navbarTopButtons.map((item, n) => (
               <div className={navbar.navbarTopButton} key={n}>
@@ -140,6 +141,7 @@ const Navbar = () => {
             </Link>
           ))}
         </div>
+      </div>
     </>
   );
 };
