@@ -11,8 +11,8 @@
   text-align: center;
   z-index: 6;
   transition: 0.2s;
-    color: var(--gray-400);
-  font-size: var(--font-30);
+    color: var(--gray-300);
+  font-size: var(--font-24);
   font-family: 'Indie Flower', cursive;
   font-weight: var(--bold);
 

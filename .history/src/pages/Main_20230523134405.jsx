@@ -66,7 +66,7 @@ const Main = () => {
           objectWidth={20}
         />
 
-        <Infocard info={supportInfos} left={"unset"} right={"7rem"} top={" "} />
+        <Infocard info={supportInfos} left={"unset"} right={"7rem"} top={"8rem"} />
       </div>
     </>
   );

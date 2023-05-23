@@ -38,7 +38,7 @@ const Main = () => {
           objectWidth={40}
         />
         <Infocard info={openingInfos} left={"2rem"} right={"unset"} top={"70vh"} />
-        <img className={logo.logo} src={require("../assets/icons/logo.png")} alt="" />
+        <img className={logo.logo} src={require("../assets/icons/logo.p")} alt="" />
       </div>
 
       <div className={app.section}>
@@ -66,7 +66,7 @@ const Main = () => {
           objectWidth={20}
         />
 
-        <Infocard info={supportInfos} left={"unset"} right={"7rem"} top={" "} />
+        <Infocard info={supportInfos} left={"unset"} right={"7rem"} top={"17rem"} />
       </div>
     </>
   );
