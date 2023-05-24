@@ -1,0 +1,162 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  justify-content: space-between;
+  overflow: visible;
+  box-sizing: border-box;
+  z-index: 11;
+  width: 100%;
+  height: 7rem;
+  color: var(--light);
+  background-color: var(--green-400-75);
+  font-size: var(--font-14);
+}
+
+.navbarButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 50vw;
+  flex-grow: 3;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbarTopButtons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100vw;
+  padding-inline: 30rem;
+  flex-grow: 1;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--dark);
+}
+
+.navbarButton {
+  text-transform: uppercase;
+  font-weight: var(--bold);
+  padding: 0.5rem;
+  transition: 0.2s;
+}
+
+.navbarButton:hover {
+  color: var(--gray-200);
+}
+
+.navbarButtonDropdown {
+  visibility: hidden;
+  z-index: 3;
+  position: absolute;
+  margin-left: -25px;
+  padding-inline: 1.5rem;
+  padding-block: 0.5rem;
+  background-color: var(--green-500);
+  line-height: 2rem;
+  filter: opacity(0);
+  transition: 0.15s;
+}
+
+.navbarButton:hover ~ .navbarButtonDropdown {
+  visibility: visible;
+  filter: opacity(1);
+}
+
+.navbarButtonDropdown:hover {
+  visibility: visible;
+  filter: opacity(1);
+}
+
+.navbarButtonDropdownItem {
+  display: block;
+  transition: 0.2s;
+  text-decoration: none;
+  color: var(--light);
+}
+
+.navbarButtonDropdownItem:hover {
+  color: var(--gray-200);
+}
+
+.navbarTopButton {
+  height: fit-content;
+  padding: 0.5rem;
+  font-weight: var(--bol);
+}
+
+.logo {
+  position: relative;
+  display: none;
+  height: 80%;
+  object-fit: contain;
+  z-index: 1;
+}
+
+.link {
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.mobileButton {
+  display: none;
+}
+
+.mobileMenu {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    height: 5rem;
+    padding-inline: 0.5rem;
+  }
+
+  .navbarTopButtons {
+    display: none;
+  }
+  .navbarButtons {
+    display: none;
+  }
+
+  .logo {
+    height: 70%;
+  }
+
+  .mobileButton {
+    display: block;
+    height: 50%;
+    margin-right: 0.5rem;
+    z-index: 1;
+  }
+
+  .mobileMenu {
+    position: absolute;
+    display: block;
+    box-sizing: border-box;
+    top: 5rem;
+    left: 100vw;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-size: 20rem;
+    background-color: var(--green-400);
+    transition: 0.2s;
+  }
+
+  .mobileMenuShow {
+    left: 0;
+  }
+
+  .mobileMenuItem {
+    color: var(--light);
+    line-height: 4rem;
+    text-decoration: none;
+  }
+}
