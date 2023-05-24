@@ -44,7 +44,7 @@ html > div {
   padding: 0;
   margin: 0;
   user-select: none;
-  cursor: url("../assets/icons/pointer.webp"), auto;
+  cursor: url("../assets/icons/pointer.png"), auto;
 }
 
 .app {

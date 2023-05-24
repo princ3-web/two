@@ -55,7 +55,7 @@ const Main = () => {
           objectWidth={40}
         />
         <Infocard info={openingInfos} left={"2rem"} right={"unset"} top={"70vh"} />
-        <img className={logo.logo} src={require("../assets/icons/logo.webp")} alt="" />
+        <img className={logo.logo} src={require("../assets/icons/logo.png")} alt="" />
       </div>
 
       <div className={app.section}>
@@ -78,7 +78,7 @@ const Main = () => {
           height={650}
           multiplier={1}
           background={require("../assets/images/para2.webp")}
-          object={require("../assets/images/object1.webp")}
+          object={require("../assets/images/object1.png")}
           right={55}
           objectWidth={20}
         />

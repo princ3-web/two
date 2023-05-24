@@ -78,7 +78,7 @@ const Main = () => {
           height={650}
           multiplier={1}
           background={require("../assets/images/para2.webp")}
-          object={require("../assets/images/object1.webp")}
+          object={require("../assets/images/object1.png")}
           right={55}
           objectWidth={20}
         />

@@ -1,7 +1,7 @@
 .section {
   height: max-content;
   min-height: 100vh;
-  background: url("../assets/images/background2.webp");
+  background: url("../assets/images/background2.web");
   background-size: auto 100%;
   padding-top: 10rem;
 }

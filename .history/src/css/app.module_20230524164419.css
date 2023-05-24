@@ -44,7 +44,7 @@ html > div {
   padding: 0;
   margin: 0;
   user-select: none;
-  cursor: url("../assets/icons/pointer.webp"), auto;
+  cursor: url("../assets/icons/pointer.png"), auto;
 }
 
 .app {
@@ -95,7 +95,7 @@ html > div {
 
 .loadingLogo{
   position: relative;
-  background: url("../assets/icons/logoLoading.webp");
+  background: url("../assets/icons/logoLoading.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
